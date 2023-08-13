@@ -79,29 +79,26 @@
         <section class="contacto" id="contacto">
             <div class="contenedor">
                 <h3 class="titulo2">Contacto</h3>
-                    <form action="" class="formulario">
+                    <form action="" class="formulario" id="formulario" name="formulario">
                         <div class="contenedor-input">
                             <input type="text" name="nombre" placeholder="Nombre">
-                            <input type="text" name="correo" placeholder="Correo">
+                            <input type="email" name="correo" placeholder="Correo">
 
                             <div class="sexo">
                                 <input type="radio" name="sexo" id="hombre" value="hombre">
-                                <label for="hombre">Hombre</label>
+                                <label for="hombre" class="label-radio hombre">Hombre</label>
 
                                 <input type="radio" name="sexo" id="mujer" value="mujer">
-                                <label for="mujer">Mujer</label>
+                                <label for="mujer" class="label-radio mujer">Mujer</label>
                             </div>
                             <div class="terminos">
                                 <input type="checkbox" name="terminos" id="terminos">
-                                <label for="terminos">Acepto terminos y condiciones</label>
+                                <label for="terminos" >Acepto terminos y condiciones</label>
                             </div>
-                            <ul class="error">
-                                <li>Error 1</li>
-                                <li>Error 2</li>
-                            </ul>
+                            <ul class="error" id="error"> </ul>
                         </div>
-                        <input type="submit" value="enviar" class="btn">
-                    </form>
+                        <input type="submit" value="Enviar" class="btn">
+                      </form>
             </div>
         </section>
     </section>
@@ -119,6 +116,8 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="index.js">
+
+    </script>
 </body>
 </html>
