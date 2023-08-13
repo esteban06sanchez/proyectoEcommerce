@@ -151,6 +151,23 @@ header .texto .nombre h3 {
     max-height: 600px;
 }
 
+footer {
+    background: #000;
+}
+
+footer .copyrigth {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.main .contacto .titulo2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
 
 
 
